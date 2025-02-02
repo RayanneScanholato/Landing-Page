@@ -80,7 +80,7 @@ i {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 25px;
 }
 
 .bg-home {
@@ -129,7 +129,7 @@ i {
   background-color: #d94140;
   border: 0;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   margin: 14px 0;
 }
 
@@ -160,10 +160,10 @@ i {
 }
 @media screen and (max-width: 480px) {
   .hero h1 {
-    font-size: 24px;
+    font-size: 20px;
   }
   .hero p {
-    font-size: 24px;
+    font-size: 15px;
   }
 }
 .about {
@@ -195,6 +195,8 @@ img {
 .about-description p {
   margin-bottom: 14px;
   line-height: 150%;
+  -webkit-hyphens: auto;
+          hyphens: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -221,9 +223,11 @@ img {
 
 .services-content p {
   line-height: 150%;
-  margin-bottom: 14px;
+  margin-bottom: 15px;
   text-align: center;
   max-width: 780px;
+  -webkit-hyphens: auto;
+          hyphens: auto;
 }
 
 .haircuts {
